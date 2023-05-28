@@ -164,10 +164,11 @@ header input[type=text] {
   margin-top: 8px;
   font-size: 17px;
   border: none;
-  width: 90%;
+  width: 80%;
   border-radius: 4px;
   background-color: hsl( 223.6363636364deg 12.9411764706% 16.6666666667%);
   color: #fff;
+  height: 45px;
 }
 .search-container button {
   padding: 6px 10px;
@@ -182,11 +183,45 @@ header input[type=text] {
   background: #ccc;
 }
 .header-button{
+  float: right;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 .sin{
-  background-color: #12bcfe;
-  width: 2%;
-  height: auto;
+  background-color: hsl(139.4117647059deg 58.6206896552% 54.5098039216%);
+  width: 88px;
+  margin-top: -46px;
+  height: 44px;
+  margin-right: 13px;
+  text-align: center;
+  padding-top: 11px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #000;
+}
+.sin:hover{
+  color: #fff;
+  background-color: hsl(139.6153846154deg 59.0909090909% 34.5098039216%);
+}
+.loin{
+  background-color: rgb(86 86 86);
+  width: 88px;
+  margin-top: -46px;
+  height: 44px;
+  margin-right: 26px;
+  text-align: center;
+  padding-top: 11px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff ;
+}
+.homepage {
+  width: 86%;
+  height: 100vh;
+  margin-left: 260px;
+}
+.homepage h1{
+  color: #fff;
+  font-weight: 900;
+  font-size: 40px;
 }
