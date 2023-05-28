@@ -68,3 +68,69 @@ aside{
 	  text-shadow: rgba(255, 255, 255, 0.4) 0 1em 0.35em;
 	}
   }
+
+.sidebar_button{
+	position: relative;
+	margin-top: -258px;
+}
+.sidebar_para{
+	color: hsl(226.6666666667deg ,11.8421052632% ,70.1960784314%);
+    letter-spacing: .01rem;
+	font-weight: 600;
+    font-size: .75rem;
+    margin: 0.75rem 1.25rem;
+    transition: color .3s ease;
+    text-transform: uppercase;
+	display: block;
+    position: relative;
+	font-family: SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+}
+.button-anon-pen {
+    width: 78%;
+    background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    top: 0vh;
+    font-weight: normal;
+    margin-left: 17px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.button-anon-pen:hover {
+    -webkit-animation: play 1.6s ease-in infinite;
+}
+
+.button-anon-pen span {
+    padding: 14px 0;
+    font-size: 18px;
+    display: block;
+    margin: 3px;
+    background: #000;
+    border-radius: 3px;
+}
+
+@-webkit-keyframes play {
+    0% {
+        background-position: 0px;
+    }
+    20% {
+        background-position: -110px;
+    }
+    35% {
+        background-position: -180px;
+    }
+    50% {
+        background-position: -210px;
+    }
+    80% {
+        background-position: -350px;
+    }
+    100% {
+        background-position: -390px;
+    }
+}
