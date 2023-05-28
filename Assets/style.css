@@ -226,3 +226,7 @@ header input[type=text] {
   margin-left: 260px;
   margin-top: 110px;
 }
+.homepage p{
+  color: hsl(230deg 12% 80.3921568627%);
+  margin-left: 260px;
+}
