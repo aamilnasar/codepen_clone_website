@@ -230,3 +230,20 @@ header input[type=text] {
   color: hsl(230deg 12% 80.3921568627%);
   margin-left: 260px;
 }
+.sinfree{
+  display: inline-block;
+  width: 170px;
+  margin-top: 16px;
+  height: 50px;
+  margin-left: 260px;
+  text-align: center;
+  padding-top: 11px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #000;
+  background-color: hsl(139.4117647059deg 58.6206896552% 54.5098039216%);
+}
+.sinfree:hover{
+  color: #fff;
+  background-color: hsl(139.6153846154deg 59.0909090909% 34.5098039216%);
+}
