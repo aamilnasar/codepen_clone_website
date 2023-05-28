@@ -181,3 +181,12 @@ header input[type=text] {
 .search-container button:hover {
   background: #ccc;
 }
+.header-button{
+  display: flex;
+  flex-direction: column;
+}
+.sin{
+  background-color: #12bcfe;
+  width: 2%;
+  height: auto;
+}
