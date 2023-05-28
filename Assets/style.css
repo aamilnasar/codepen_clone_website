@@ -134,3 +134,21 @@ aside{
         background-position: -390px;
     }
 }
+.sidebar_content{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.sidebar_content a{
+	color: #fff;
+	cursor: pointer;
+	margin: 20px;
+}
+.sidebar_content ul li  a:hover{
+	background-color: #000;
+	width: 100%;
+	margin: 0;
+}
