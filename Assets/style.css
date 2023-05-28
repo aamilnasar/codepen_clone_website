@@ -1,134 +1,70 @@
 *{
     padding: 0;
-    margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     list-style: none;
     text-decoration: none;
-    background-color: hsl(225deg, 9.5238095238% ,8.2352941176%);
 }
-
-.logo  a h1{
-      color: #fff;
-    font-size: 2.5em;
-    font-weight: 700;
-    text-align: center;
+body{
+	background: hsl(225deg, 9.5238095238% ,8.2352941176%);
+	margin: 0;
+	display: grid;
 }
-.logo  a h1:hover{
- text-decoration:none;
+aside{
+	background-color: hsl(232.5deg ,11.7647058824% ,13.3333333333%);
+	width: 188px;
+	height: 100vh;
+	position: fixed;
+	box-shadow: 2px 0 5px rgb(0 0 0 / 20%);
 }
-.logo  a h1 span{
- color:#a5cd39;
-}
-.header-top-right form input[type="text"] {
-    font-size: .9em;
-    color: #FFFFFF;
-    float: left;
-    outline: none;
-    border: 1px solid #003366;
-    padding: 0.5em;
-    background: hsl(232.5deg 11.7647058824% 13.3333333333%);
-}
-.header-top-right form input[type="submit"] {
-    color: #FFF;
-    background: hsl(232.5deg 11.7647058824% 13.3333333333%);
-    width: 26px;
-    font-size: 16px;
-    float: left;
-    border: none;
-    outline: none;
-    padding: 0.43em 1.2em;
-    text-transform: uppercase;
-}
-.header-top-right {
-    float: right;
-       margin: 0.5em 0 0 0;
-}
-.top-menu ul {
-    margin-top: 9em;
-}
-.top-nav{
-       float: left;
-		background-color: hsl(232.5deg 11.7647058824% 13.3333333333%);
-		width: 15%;
-	     padding: 3em 1em 95.6em 1em;
-		   position:absolute;
-}
-.top-nav.contact{
-       float: left;
-		background-color: hsl(232.5deg 11.7647058824% 13.3333333333%);
-		width: 15%;
-  padding: 3em 1em 37.86em 1em;
-		   position:absolute;
-}
-.top-nav.about{
-       float: left;
-		background-color: hsl(232.5deg 11.7647058824% 13.3333333333%);
-		width: 15%;
-	  	    padding: 3em 1em 95.25em 1em;
-		   position:absolute;
-}
-	.top-nav.grid-sec {
-		float: left;
-		background-color: hsl(232.5deg 11.7647058824% 13.3333333333%);
-		width: 15%;
-		padding: 3em 1em 24.65em 1em;
-	}
-	.top-nav.gallery-sec{
-		float: left;
-		background-color: hsl(232.5deg 11.7647058824% 13.3333333333%);
-		width: 15%;
-		    padding: 3em 1em 34.45em 1em;
-	}
-	.top-nav.services {
-		float: left;
-		background-color: hsl(232.5deg 11.7647058824% 13.3333333333%);
-		width: 15%;
-		padding: 3em 1em 103.2em 1em;
-	}
-	.top-nav.login {
-		float: left;
-		background-color: hsl(232.5deg 11.7647058824% 13.3333333333%);
-		width: 15%;
-		padding: 3em 1em 15.25em 1em;
-	}
-	.top-nav.register {
-		float: left;
-		background-color: hsl(232.5deg 11.7647058824% 13.3333333333%);
-		width: 15%;
-		padding: 3em 1em 23.55em 1em;
-	}
-    .top-nav.sing-page {
-		float: left;
-		background-color: hsl(232.5deg 11.7647058824% 13.3333333333%);
-		width: 15%;
-		padding: 3em 1em 95.4em 1em;
-	}
-.top-menu ul li {
-    display:block;
-    color: #fff;
-    vertical-align: top;
-       text-align: center;
-    margin-bottom:2em;
-}
-.top-menu ul li a{
-    color: #fff;
-    font-size: 0.9em;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 1em 1em;
-    background: none;
-    background-color: hsl(232.5deg 11.7647058824% 13.3333333333%);
-}
-nav a {
-	position: relative;
+.bounce {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	  color: white;
+	height: 100%;
+	font: normal bold 6rem "Product Sans", sans-serif;
+	white-space: nowrap;
+    margin-top: -250px;
+	margin-left: -1px;
+  }
+  .letter {
+	animation: bounce 0.75s cubic-bezier(0.05, 0, 0.2, 1) infinite alternate;
 	display: inline-block;
-	outline: none;
-	color: #fff;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-weight: 400;
-	text-shadow: 0 0 1px rgba(255,255,255,0.3);
-	font-size: 1em;
-}
-
+	transform: translate3d(0, 0, 0);
+	margin-top: 0.5em;
+	text-shadow: rgba(255, 255, 255, 0.4) 0 0 0.05em;
+	font: normal 900 1.8rem 'Varela Round', sans-serif;
+  }
+  
+  .letter:nth-of-type(1) {
+	animation-delay: -0.083333333s;
+  }
+  .letter:nth-of-type(3) {
+	animation-delay: 0.0833333333s;
+  }
+  .letter:nth-of-type(4) {
+	animation-delay: 0.1666666667s;
+  }
+  .letter:nth-of-type(5) {
+	animation-delay: 0.25s;
+  }
+  .letter:nth-of-type(6) {
+	animation-delay: 0.3333333333s;
+  }
+  .letter:nth-of-type(7) {
+	animation-delay: 0.4166666667s;
+  }
+  
+  
+  @keyframes bounce {
+	0% {
+	  transform: translate3d(0, 0, 0);
+	  text-shadow: rgba(255, 255, 255, 0.4) 0 0 0.05em;
+	}
+	100% {
+	  transform: translate3d(0, -1em, 0);
+	  text-shadow: rgba(255, 255, 255, 0.4) 0 1em 0.35em;
+	}
+  }
