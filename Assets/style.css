@@ -142,13 +142,15 @@ aside{
 	flex-direction: column;
 	position: relative;
 }
-.sidebar_content a{
+.sidebar_content ul li a{
 	color: #fff;
 	cursor: pointer;
-	margin: 20px;
+  width: 100%;
+}
+.sidebar_content li{
+	margin: 30px;
 }
 .sidebar_content ul li  a:hover{
 	background-color: #000;
-	width: 100%;
-	margin: 0;
+	padding: 7%;
 }
